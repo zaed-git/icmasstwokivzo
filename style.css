@@ -1,0 +1,277 @@
+/* default css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* common css  */
+header,
+.hero_section,
+.hero_footer_section,
+.edito_section {
+  background-color: #f9f9f9;
+}
+
+/* nav section  start */
+.navbar_search {
+  right: 10px;
+}
+
+/* nav section  end */
+/* hero  */
+.bg_world {
+  background-color: #6641ee;
+}
+
+.hero_tag_title {
+  font-size: 12px;
+}
+
+.hero_footer_line,
+.hero_aside_line {
+  width: 14px;
+  height: 1px;
+  background-color: #1a1a1a;
+}
+
+.hero_title {
+  font-size: 16px;
+}
+
+.hero_hidden {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #00000060;
+  display: none;
+  transition: all;
+  transition-duration: 3s;
+}
+
+.hero_parrent:hover .hero_hidden {
+  display: block;
+}
+
+/* hero  */
+
+
+
+.bg_business {
+  background-color: #e3c034;
+}
+
+.bg_technology {
+  background-color: #e74c3c;
+}
+
+.bg_culture {
+  background-color: #38ade8;
+}
+
+.bg_health {
+  background-color: #32d255;
+}
+
+.bg_sports {
+  background-color: #e8493a;
+}
+
+
+.hero_footer_section img {
+  height: 280px;
+}
+
+
+/* some commong css    */
+/* some commong css   */
+
+
+
+
+
+.latest_news {
+  background-color: #f08f64;
+}
+
+
+
+
+/* technology css  start */
+
+.technology_cards img {
+  width: 100%;
+  height: 240px;
+}
+
+.technology_hover {
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: #00000060;
+  transition: all;
+  transition-duration: 3s;
+  display: none;
+}
+
+
+
+
+
+.technology_parent:hover .technology_hover {
+  display: block;
+}
+
+/* technology css  end */
+
+
+/* team */
+.team_details {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #00000060;
+  display: none;
+  transition: all;
+  transition-duration: 3s;
+}
+
+.team-details_parent:hover .team_details {
+  display: block;
+}
+
+/* team */
+
+
+.turning_div {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #00000060;
+}
+
+/* podcast css start */
+.podcast_badge,
+.badge {
+  width: fit-content;
+  background-color: #f08f64;
+}
+
+.podcast_hover {
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: #00000060;
+  transition: all;
+  transition-duration: 3s;
+  display: none;
+}
+
+.podcast_parent:hover .podcast_hover {
+  display: block;
+}
+
+.podcast {
+  background-color: #00000025;
+}
+
+
+/* podcast css end */
+
+/* footer css start */
+.social-icons-div {
+  background-color: #2a2a2a;
+  width: 35px;
+  height: 35px;
+}
+
+.social_title {
+  color: #d9d9d9;
+}
+
+.footer_input {
+  width: 280px;
+}
+
+.footer_email {
+  left: 20px;
+  top: 11px;
+}
+
+.footer_subscribe {
+  background-color: #f08f64;
+}
+
+footer form input {
+  outline: none;
+}
+
+.foofooter_menu li {
+  color: #999999;
+}
+
+.footer_three {
+  color: #999999;
+  margin-top: 80px;
+}
+
+
+/* footer css end */
+
+
+/* all font  */
+
+.font_6 {
+  font-size: 6px;
+}
+
+.font_8 {
+  font-size: 8px;
+}
+
+.font_10 {
+  font-size: 10px;
+}
+
+.font_12 {
+  font-size: 12px;
+}
+
+.font_14 {
+  font-size: 14px;
+}
+
+.font_16 {
+  font-size: 16px;
+}
+
+.font_18 {
+  font-size: 18px;
+}
+
+.font_20 {
+  font-size: 20px;
+}
+
+.font_22 {
+  font-size: 22px;
+}
+
+.font_24 {
+  font-size: 24px;
+}
+
+.font_26 {
+  font-size: 26px;
+}
+
+.font_28 {
+  font-size: 28px;
+}
+
+.text-333333 {
+  color: #333333;
+}
+
+/* all font  */

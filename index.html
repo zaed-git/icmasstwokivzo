@@ -1,0 +1,752 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Kivzo</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header section start -->
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container bg-white py-2 px-4 my-1">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <img src="images/menicon.png" alt="">
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logoicon.png" alt="">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav me-auto mb-1 mb-lg-0 font_16">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link active text-uppercase" aria-current="page" href="#">business</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link text-uppercase" href="#">health news</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link text-uppercase " href="#">world news</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link text-uppercase" href="#">sports</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link text-uppercase" href="#">culture</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link text-uppercase" href="#">subscribe</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link text-uppercase" href="#">cart (0)</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex gap-4" role="search">
+                        <div class="position-relative">
+                            <input class="form-control me-2 rounded-5 text-uppercase shadow-none " type="search "
+                                placeholder="Search" aria-label="Search">
+                            <img class="position-absolute top-0  navbar_search" src="images/searchicon.png" alt="">
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- header section end -->
+    <!-- main section start -->
+    <main>
+        <!-- hero section start -->
+        <section class="hero_section">
+            <div class="container py-3 d-lg-flex gap-4 align-items-start justify-content-between">
+                <div class="d-flex flex-column gap-4">
+                    <img class=" img-fluid" src="images/hero_bg.png" alt="">
+                    <div class="d-flex flex-column gap-2">
+                        <div class="hero_title fw-semibold">
+                            Revolutionizing manufacturing emerging trends
+                            shaping the industry
+                        </div>
+                        <div class="d-flex align-items-center gap-3">
+                            <span class="bg_world rounded d-flex gap-2 align-items-center  px-3 py-2 text-white">
+                                <img class="hero_tag_img img-fluid" src="images/heroicon1.png" alt="">
+                                <span class="hero_tag_title font_12">World News</span>
+                            </span>
+
+                            <div class="hero_footer_line d-inline-block"></div>
+                            <span class="text-uppercase font_16">Jan 25, 2025</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column gap-4 mt-5 mt-lg-0">
+
+                    <!-- single  -->
+                    <div class="border-bottom border-black pb-4 d-flex flex-column gap-4">
+                        <div class="d-flex align-items-center gap-4">
+                            <span class="bg_business rounded d-flex gap-2 align-items-center  px-2 py-1 text-white">
+                                <img class="hero_tag_img img-fluid" src="images/hero_businessIcon.png" alt="">
+                                <span class="hero_tag_title font_12">Business</span>
+                            </span>
+
+                            <div class="hero_aside_line  d-inline-block"></div>
+                            <span class="text-uppercase font_16">Feb 10, 2025</span>
+                        </div>
+
+                        <div class="fw-semibold font_14 "> Adapting business strategies to meet changing demands</div>
+                    </div>
+                    <!-- single  -->
+                    <!-- single  -->
+                    <div class="border-bottom  pb-4 d-flex flex-column gap-3">
+                        <div class="d-flex align-items-center gap-3">
+                            <span class="bg_technology rounded d-flex gap-2 align-items-center  px-2 py-1 text-white">
+                                <img class="hero_tag_img img-fluid" src="images/hero_technologyIcon.png" alt="">
+                                <span class="hero_tag_title font_12">Technology</span>
+                            </span>
+
+                            <div class="hero_aside_line  d-inline-block"></div>
+                            <span class="text-uppercase font_16">Feb 10, 2025</span>
+                        </div>
+
+                        <div class="fw-semibold font_14">Smart homes revolution how iot is transforming living spaces
+                        </div>
+                    </div>
+                    <!-- single  -->
+                    <!-- single  -->
+                    <div class="border-bottom pb-4 d-flex flex-column gap-3">
+                        <div class="d-flex align-items-center gap-3">
+                            <span class="bg_culture rounded d-flex gap-2 align-items-center  px-2 py-1 text-white">
+                                <img class="hero_tag_img img-fluid" src="images/hero_cultureIcon.png" alt="">
+                                <span class="hero_tag_title font_12">Culture</span>
+                            </span>
+
+                            <div class="hero_aside_line  d-inline-block"></div>
+                            <span class="text-uppercase font_16">Jan 27, 2025</span>
+                        </div>
+
+                        <div class="fw-semibold font_14">The power of art in connecting and expressing cultural</div>
+                    </div>
+                    <!-- single  -->
+                    <!-- single  -->
+                    <div class="border-bottom pb-4 d-flex flex-column gap-3">
+                        <div class="d-flex align-items-center gap-3">
+                            <span class="bg_health rounded d-flex gap-2 align-items-center  px-2 py-1 text-white">
+                                <img class="hero_tag_img img-fluid" src="images/hero_healthIcon.png" alt="">
+                                <span class="hero_tag_title font_12">Health News</span>
+                            </span>
+
+                            <div class="hero_aside_line  d-inline-block"></div>
+                            <span class="text-uppercase font_16">Feb 27, 2025</span>
+                        </div>
+
+                        <div class="fw-semibold font_14">How artificial intelligence & machine learning are changing the
+                            field
+                        </div>
+                    </div>
+                    <!-- single  -->
+                    <!-- single  -->
+                    <div class="border-bottom pb-4 d-flex flex-column gap-3">
+                        <div class="d-flex align-items-center gap-3">
+                            <span class="bg_sports rounded d-flex gap-2 align-items-center  px-2 py-1 text-white">
+                                <img class="hero_tag_img img-fluid" src="images/hero_sportsIcon.png" alt="">
+                                <span class="hero_tag_title font_12">Sports</span>
+                            </span>
+
+                            <div class="hero_aside_line  d-inline-block"></div>
+                            <span class="text-uppercase font_16">Jan 27, 2025</span>
+                        </div>
+
+                        <div class="fw-semibold font_14">The influence of youth sports programs on developing future
+                            champions
+                        </div>
+                    </div>
+                    <!-- single  -->
+                    <!-- single  -->
+                </div>
+            </div>
+        </section>
+        <!-- hero section end -->
+
+        <section class="hero_footer_section   my-4">
+            <div
+                class="container  d-flex flex-column justify-content-between align-items-center flex-md-row gap-4 align-items-md-start justify-content-md-between">
+                <div class="rounded overflow-hidden   hero_parrent position-relative">
+                    <img class="img-fluid" src="images/heroImg_business.png" alt="">
+                    <div class=" text-white py-3 ps-4 text-uppercase   position-absolute hero_hidden ">Business</div>
+                </div>
+                <div class="rounded  overflow-hidden  hero_parrent position-relative">
+                    <img class="img-fluid " src="images/heroImg_health.png" alt="">
+                    <div class="text-white py-3 ps-4 text-uppercase  position-absolute hero_hidden ">Health news</div>
+                </div>
+                <div class="rounded  overflow-hidden  hero_parrent position-relative">
+                    <img class="img-fluid " src="images/heroImg_world.png" alt="">
+                    <div class="text-white py-3 ps-4 text-uppercase  position-absolute hero_hidden ">World News</div>
+                </div>
+                <div class="rounded  overflow-hidden  hero_parrent position-relative">
+                    <img class="img-fluid  " src="images/heroImg_sports.png" alt="">
+                    <div class="text-white py-3 ps-4 text-uppercase  position-absolute hero_hidden ">Sports</div>
+                </div>
+                <div class="rounded  overflow-hidden  hero_parrent position-relative">
+                    <img class="img-fluid  " src="images/heroImg_culture.png" alt="">
+                    <div class="text-white py-3 ps-4 text-uppercase  position-absolute hero_hidden ">Culture</div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- editor section start -->
+        <section class="edito_section  my-5 ">
+            <div class="container py-5">
+                <div class="d-flex flex-column flex-lg-row align-items-stretch justify-content-between gap-4 py-5">
+                    <div class="bg-white p-4 p-lg-5 d-flex flex-column gap-5 ">
+                        <div>
+                            <p class="font_14">Stories That Matter</p>
+                            <h5 class="font_24">Editor's Pick</h5>
+                        </div>
+
+                        <div>
+                            <div class="border-top py-3">
+                                <p class="font_12 text-333333">Culture</p>
+                                <div class="font_16 fw-semibold">The power of art in connecting and expressing cultural
+                                </div>
+                            </div>
+                            <div class="border-top py-3">
+                                <p class="font_12 text-333333">Health News</p>
+                                <div class="font_16 fw-semibold">How artificial intelligence & machine learning are
+                                    changing the field</div>
+                            </div>
+                            <div class="border-top pt-3">
+                                <p class="font_12 text-333333">Sports</p>
+                                <div class="font_16 fw-semibold">The influence of youth sports programs on developing
+                                    future champions</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 ">
+                        <img class="img-fluid rounded" src="images/editor.png" alt="editor">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- editor section end -->
+        <!-- lates section start -->
+
+        <!-- lates section end--> <!-- lates section start -->
+        <section class="latest_news my-5">
+            <div class="container py-5 d-flex flex-column gap-5">
+                <div class="d-flex align-items-center justify-content-between">
+                    <h2 class="text-uppercase font_28">Latest News</h2>
+                    <div class="d-flex gap-3 align-items-center ">
+                        <span class="text-uppercase font_12">View all</span>
+                        <i class="fa-solid fa-arrow-right font_10"></i>
+                    </div>
+                </div>
+
+                <!-- align-items-center align-items-md-start -->
+                <div class="d-flex flex-column flex-xl-row gap-4  justify-content-between">
+                    <div class="d-flex flex-column gap-2">
+                        <img class="img-fluid rounded" src="images/latestNews_01_technology.png" alt="">
+                        <div class="d-flex align-items-center gap-3 font12">
+                            <span class="text-uppercase font_16">Technology</span>
+                            <div class="hero_aside_line d-inline-block"></div>
+                            <span class="text-uppercase font_16">Jan 25, 2025</span>
+                        </div>
+
+                        <h5 class="font_18">Future-focused an in-depth look at cutting-
+                            edge tech trends</h5>
+                    </div>
+
+                    <div class="d-flex flex-column gap-2">
+                        <img class="img-fluid rounded" src="images/latestNews_02_business.png" alt="">
+                        <div class="d-flex align-items-center gap-3 font12">
+                            <span class="text-uppercase font_16">Business</span>
+                            <div class="hero_aside_line d-inline-block"></div>
+                            <span class="text-uppercase font_16">Jan 25, 2025</span>
+                        </div>
+
+                        <h5 class="font_18">Future-focused an in-depth look at cutting-
+                            edge tech trends</h5>
+                    </div>
+
+                    <div class="d-flex flex-column gap-4">
+                        <div class="d-flex flex-column p-1 gap-4 flex-lg-row p-lg-0 align-items-lg-center">
+                            <img class="img-fluid" src="images/latestNews_03_business.png" alt="">
+                            <div class="">
+                                <div class="d-flex align-items-center gap-3 font12">
+                                    <span class="text-uppercase font_16">Business</span>
+
+                                    <div class="hero_aside_line d-inline-block"></div>
+                                    <span class="text-uppercase font_16">Feb 10, 2025</span>
+                                </div>
+                                <h5 class="font_18">Adapting business strategies to
+                                    meet changing demands</h5>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column p-1 gap-4 flex-lg-row p-lg-0 align-items-lg-center">
+                            <img src="images/latestNews_04_technology.png" alt="">
+                            <div>
+                                <div class="d-flex align-items-center gap-3 font12">
+                                    <span class="text-uppercase font_16">Technology</span>
+
+                                    <div class="hero_aside_line d-inline-block"></div>
+                                    <span class="text-uppercase font_16">Feb 10, 2025</span>
+                                </div>
+                                <h5 class="font_18">Smart homes revolution how iot
+                                    is transforming living spaces</h5>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column p-1 gap-4 flex-lg-row p-lg-0 align-items-lg-center">
+                            <img src="images/latestNews_05_culture.png" alt="">
+                            <div>
+                                <div class="d-flex align-items-center gap-3 font12">
+                                    <span class="text-uppercase font_16">Culture</span>
+
+                                    <div class="hero_aside_line d-inline-block"></div>
+                                    <span class="text-uppercase font_16">Jan 27, 2025</span>
+                                </div>
+                                <h5 class="font_18">The power of art in connecting
+                                    and expressing cultural</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- lates section end-->
+
+        <!-- technology section start -->
+        <section class="technologySection my-5">
+            <div class="container py-5 d-flex flex-column gap-5">
+                <div class="d-flex align-items-center justify-content-between">
+                    <h2 class="text-uppercase font_28">Technology</h2>
+                    <div class="d-flex gap-3 align-items-center ">
+                        <span class="text-uppercase font_12">View all</span>
+                        <i class="fa-solid fa-arrow-right font_10"></i>
+                    </div>
+                </div>
+
+
+                <div class="d-flex flex-column flex-lg-row gap-4 align-items-stretch">
+                    <div class="d-flex flex-column gap-4 technology_cards">
+                        <div class="d-flex flex-column gap-2">
+                            <img class="img-fluid rounded" src="images/technology_01.png" alt="">
+
+                            <div class="d-flex align-items-center gap-3 font12">
+                                <span class="text-uppercase font_16">Technology</span>
+                                <div class="hero_aside_line d-inline-block"></div>
+                                <span class="text-uppercase font_16">Feb 10, 2025</span>
+                            </div>
+
+                            <h5 class="font_18">Smart homes revolution how iot is
+                                transforming living spaces</h5>
+                        </div>
+
+
+                        <div class="d-flex flex-column gap-2">
+                            <img class="img-fluid rounded" src="images/technology_03.png" alt="">
+
+                            <div class="d-flex align-items-center gap-3 font12">
+                                <span class="text-uppercase font_16">Technology</span>
+                                <div class="hero_aside_line d-inline-block"></div>
+                                <span class="text-uppercase font_16">Jan 25, 2025</span>
+                            </div>
+
+                            <h5 class="font_18">Cyber Security at risk the growing threat
+                                of digital breaches</h5>
+                        </div>
+
+
+                    </div>
+
+                    <div class="d-flex flex-column gap-4 technology-cards">
+                        <div class="d-flex flex-column gap-2">
+                            <img class="img-fluid rounded" src="images/technology_02.png" alt="">
+
+                            <div class="d-flex align-items-center gap-3 font12">
+                                <span class="text-uppercase font_16">Technology</span>
+                                <div class="hero_aside_line d-inline-block"></div>
+                                <span class="text-uppercase font_16">Jan 25, 2025</span>
+                            </div>
+
+                            <h5 class="font_18">The future of 5G connecting a world at
+                                lightning speed</h5>
+                        </div>
+
+                        <div class="d-flex flex-column gap-2">
+                            <img class="img-fluid rounded" src="images/technology_04.png" alt="">
+
+                            <div class="d-flex align-items-center gap-3 font12">
+                                <span class="text-uppercase font_16">Technology</span>
+                                <div class="hero_aside_line d-inline-block"></div>
+                                <span class="text-uppercase font_16">Jan 25, 2025</span>
+                            </div>
+
+                            <h5 class="font_18">Transforming entertainment, education &
+                                beyond</h5>
+                        </div>
+                    </div>
+
+                    <div class="technology_parent position-relative">
+                        <img class="img-fluid rounded" src="images/technology_05.png" alt="">
+
+                        <div class="technology_hover position-absolute">
+                            <div class="p-2 d-flex gap-2 flex-column">
+                                <span
+                                    class="kristinWalton rounded-5 font12 fw-bold text-uppercase px-3 font_16 ">Kristin
+                                    Watson</span>
+                                <span class=" text-white font_16">Jan 25, 2025</span>
+                                <h1 class="text-white fw-medium font_18">Future-focused an in-depth look at
+                                    cutting-edge
+                                    tech
+                                    trends
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- technology section e -->
+
+
+
+
+        <!--  section start -->
+        <section>
+            <div class="container py-lg-5 my-5">
+                <div class="position-relative">
+                    <img class="img-fluid rounded" src="images/turningIdeas.png" alt="">
+
+                    <div class="turning_div position-absolute">
+                        <div class="d-flex align-items-center justify-content-between px-5 py-3">
+                            <div class="w-70">
+                                <div class="w-75 d-flex flex-column gap-1 text-white">
+                                    <h4 class="font_18">Turning ideas into impactful Ad campaigns</h4>
+                                    <p class="font_14">Partner with us to take your brand to the next level. Our
+                                        platform offers prime
+                                        advertising
+                                        opportunities
+                                        designed to connect your business with a diverse & engaged audience.</p>
+                                </div>
+                            </div>
+
+                            <div class="w-30 d-flex justify-content-end">
+                                <p
+                                    class="badge  rounded-5 font-12 fw-bold text-uppercase px-3 d-flex gap-3 align-items-center py-2 px-4">
+                                    <span class="font_12">Advertise
+                                        with
+                                        us</span> <i class="fa-solid fa-arrow-right font_10"></i>
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  section start end -->
+
+        <!--  team section start -->
+        <section class="container my-5 d-flex flex-column gap-3">
+            <div class="d-flex align-items-center justify-content-between">
+                <h2 class="text-uppercase font_28">Our Editorial Team</h2>
+                <div class="d-flex gap-3 align-items-center ">
+                    <span class="text-uppercase font_12">View all</span>
+                    <i class="fa-solid fa-arrow-right font_10"></i>
+                </div>
+            </div>
+
+
+            <div class="d-flex flex-column flex-md-row align-items-center justify-content-between">
+                <div class="position-relative team-details_parent">
+                    <img class="img-fluid" src="images/editorTeam_01.png" alt="">
+                    <div class="team_details position-absolute text-white">
+                        <div class="text-decoration-underline d-flex  align-items-center justify-content-between p-4 ">
+                            <span class="font_18">Marvin McKinney</span>
+                            <span class="font_14">Senior Reporter</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="position-relative team-details_parent">
+                    <img class="img-fluid" src="images/editorTeam_02.png" alt="">
+                    <div class="team_details position-absolute text-white">
+                        <div class="text-decoration-underline d-flex  align-items-center justify-content-between p-4 ">
+                            <span class="font_18">Theresa Webb</span>
+                            <span class="font_14">Publisher</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="position-relative team-details_parent">
+                    <img class="img-fluid" src="images/editorTeam_03.png" alt="">
+                    <div class="team_details position-absolute text-white">
+                        <div class="text-decoration-underline d-flex  align-items-center justify-content-between p-4 ">
+                            <span class="font_18">Esther Howards</span>
+                            <span class="font_14">Content Writer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!--  team section end -->
+
+        <!-- podcast  section start -->
+        <section class=" my-5">
+            <div class="container py-5 d-flex flex-column gap-5">
+                <div class="d-flex align-items-center justify-content-between">
+                    <h2 class="text-uppercase font_28">Podcast</h2>
+                    <div class="d-flex gap-3 align-items-center ">
+                        <span class="text-uppercase fw-semibold font_12">View all</span>
+                        <i class="fa-solid fa-arrow-right font_10"></i>
+                    </div>
+                </div>
+
+
+                <div class="d-flex flex-column flex-lg-row gap-4">
+                    <div class="w-100 w-md-50  podcast_parent position-relative">
+                        <img class="img-fluid rounded" src="images/podcast_01.png" alt="">
+
+                        <div class=" podcast_hover position-absolute podcast">
+                            <div class="p-2 d-flex gap-2 flex-column">
+                                <div class="d-flex gap-1 flex-column">
+                                    <span
+                                        class="podcast_badge rounded-5 font12 fw-bold text-uppercase px-2 py-1 text-decoration-underline ">10
+                                        minute</span>
+                                    <span class="font_12 text-white text-uppercase text-decoration-underline">Marvin
+                                        McKinney</span>
+                                </div>
+                                <h1 class="font_24 text-white fw-medium text-decoration-underline">Conversations beyond
+                                    borders insights, ideas and
+                                    inspiring journeys
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-100 w-md-50 d-flex flex-column gap-4 technology-cards">
+                        <div class="position-relative">
+                            <img class="img-fluid rounded" src="images/podcast_02.png" alt="">
+
+                            <div class="turning_div  position-absolute px-4 py-2 bg-transparent">
+                                <div class="p-2 d-flex gap-2 flex-column">
+                                    <div class="d-flex gap-1 flex-column">
+                                        <span class="font_12 text-white text-uppercase  text-decoration-underline">Guy
+                                            Hawkins </span>
+                                    </div>
+                                    <h1 class="font_24 text-white fw-medium  text-decoration-underline">Beyond the mic
+                                        transformative ideas, powerful voices, endless inspiration
+                                    </h1>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="position-relative">
+                            <img class="img-fluid rounded" src="images/podcast_03.png" alt="">
+
+                            <div class="turning_div  position-absolute px-4 py-2 bg-transparent">
+                                <div class="p-2 d-flex gap-2 flex-column">
+                                    <div class="d-flex gap-1 flex-column">
+                                        <span class="font_12 text-white text-uppercase  text-decoration-underline">
+                                            Kristin Watson </span>
+                                    </div>
+                                    <h1 class="font_24 text-white fw-medium  text-decoration-underline">The change
+                                        makers
+                                        inspiring stories of transformation and resilience
+                                    </h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- podcast  section  end -->
+    </main>
+    <!--  -->
+    <!-- main section end -->
+    <!-- footer section start -->
+    <footer class="bg-black mt-5  px-1 md:px-0">
+        <div class="container py-5 d-flex flex-column gap-3">
+            <div class="d-flex flex-column flex-md-row gap-5 align-items-start justify-content-between ">
+                <div class="  w-lg-75 w-md-75 w-100 d-flex flex-column gap-2 pe-5">
+                    <div class="d-flex flex-column gap-4 border-bottom border-secondary pb-5">
+                        <h5 class="font_16 text-white">Stay updated with the latest news, stories, and insights from
+                            around the
+                            globe.</h5>
+                        <form class="d-flex flex-column flex-md-row gap-3" action="">
+                            <div class="footer_input border rounded-5 border-white p-2 position-relative">
+                                <img class="position-absolute footer_email" src="images/footer_email.png"
+                                    alt="Email Icon">
+                                <input class="text-white btn-outline-dark border-0 bg-transparent ms-5" type="email"
+                                    placeholder="Your mail id ">
+                            </div>
+                            <button type="submit"
+                                class="rounded-5 font_18 fw-semibold text-uppercase py-2 px-4 footer_subscribe border-0">
+                                Subscribe Now
+                            </button>
+                        </form>
+                    </div>
+                    <div class="pt-5">
+                        <div class="row footer_menu">
+                            <div class="col-4">
+                                <h6 class="text-white fw-semibold mb-4 font_18">PAGES</h6>
+                                <ul class="list-unstyled d-flex flex-column gap-2">
+                                    <li class="font_16">About us</li>
+                                    <li class="font_16">Categories</li>
+                                    <li class="font_16">News</li>
+                                    <li class="font_16">Authors</li>
+                                    <li class="font_16">Podcast</li>
+                                    <li class="font_16">Newsletter Plans</li>
+                                </ul>
+                            </div>
+                            <div class="col-4">
+                                <h6 class="text-white  fw-semibold mb-4 font_18">CATEGORIES</h6>
+                                <ul class="list-unstyled  d-flex flex-column gap-2">
+
+                                    <li class="font_16">Business</li>
+                                    <li class="font_16">Health News</li>
+                                    <li class="font_16">World News</li>
+                                    <li class="font_16">Sports</li>
+                                    <li class="font_16">Culture</li>
+                                    <li class="font_16">Technology</li>
+                                </ul>
+                            </div>
+                            <div class="col-4">
+                                <h6 class="text-white fw-semibold mb-4 font_18 ">RESOURCES</h6>
+                                <ul class="list-unstyled  d-flex flex-column gap-2">
+                                    <li class="font_16">Contact us</li>
+                                    <li class="font_16">Advertise</li>
+                                    <li class="font_16">Changelong</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-lg-25  w-md-25 w-100 px-0">
+                    <ul class="px-0">
+                        <li
+                            class="d-flex align-items-center justify-content-between border-secondary border-bottom py-3">
+                            <div class="d-flex gap-3 ">
+                                <div
+                                    class="social-icons-div rounded-2 d-flex m-auto align-items-center justify-content-center">
+                                    <img src="images/footer_facebook.png" alt="Facebook">
+                                </div>
+                                <span class="font_18 social_title d-flex align-items-center ">Facebook</span>
+                            </div>
+                            <div>
+                                <img src="images/footer_arrow.png" alt="Arrow">
+                            </div>
+                        </li>
+                        <li
+                            class="d-flex align-items-center justify-content-between border-secondary border-bottom py-3">
+                            <div class="d-flex gap-3 ">
+                                <div
+                                    class="social-icons-div rounded-2 d-flex m-auto align-items-center justify-content-center">
+                                    <img src="images/footer_youtube.png" alt="YouTube">
+                                </div>
+                                <span class="font_18 social_title d-flex align-items-center ">YouTube</span>
+                            </div>
+                            <div>
+                                <img src="images/footer_arrow.png" alt="Arrow">
+                            </div>
+                        </li>
+                        <li
+                            class="d-flex align-items-center justify-content-between border-secondary border-bottom py-3">
+                            <div class="d-flex gap-3 ">
+                                <div
+                                    class="social-icons-div rounded-2 d-flex m-auto align-items-center justify-content-center">
+                                    <img src="images/footer_instagram.png" alt="Instagram">
+                                </div>
+                                <span class="font_18 social_title d-flex align-items-center ">Instagram</span>
+                            </div>
+                            <div>
+                                <img src="images/footer_arrow.png" alt="Arrow">
+                            </div>
+                        </li>
+                        <li
+                            class="d-flex align-items-center justify-content-between border-secondary border-bottom py-3">
+                            <div class="d-flex gap-3 ">
+                                <div
+                                    class="social-icons-div rounded-2 d-flex m-auto align-items-center justify-content-center">
+                                    <img src="images/footer_twitter.png" alt="Twitter">
+                                </div>
+                                <span class="font_18 social_title d-flex align-items-center ">Twitter</span>
+                            </div>
+                            <div>
+                                <img src="images/footer_arrow.png" alt="Arrow">
+                            </div>
+                        </li>
+                        <li
+                            class="d-flex align-items-center justify-content-between border-secondary border-bottom py-3">
+                            <div class="d-flex gap-3 ">
+                                <div
+                                    class="social-icons-div rounded-2 d-flex m-auto align-items-center justify-content-center">
+                                    <img src="images/footer_reddit.png" alt="Reddit">
+                                </div>
+                                <span class="font_18 social_title d-flex align-items-center ">Reddit</span>
+                            </div>
+                            <div>
+                                <img src="images/footer_arrow.png" alt="Arrow">
+                            </div>
+                        </li>
+                        <li
+                            class="d-flex align-items-center justify-content-between border-secondary border-bottom py-3">
+                            <div class="d-flex gap-3 ">
+                                <div
+                                    class="social-icons-div rounded-2 d-flex m-auto align-items-center justify-content-center">
+                                    <img src="images/footer_rss.png" alt="RSS">
+                                </div>
+                                <span class="font_18 social_title d-flex align-items-center ">RSS</span>
+                            </div>
+                            <div>
+                                <img src="images/footer_arrow.png" alt="Arrow">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="footer_three font_14 d-flex flex-column flex-md-row align-items-center justify-content-between">
+                <div class="d-flex  flex-column flex-md-row  gap-4 align-items-center justify-content-center">
+                    <span class="border-end border-secondary pe-4">
+                        <img class="img-fluid" src="images/footer_logo.png" alt="Kivzo">
+                    </span>
+                    <ul class="d-flex  gap-3 gap-md-4 list-unstyled align-items-center">
+                        <li class="font_14">Privacy Policy</li>
+                        <li class="font_14">Terms & Conditions</li>
+                        <li class="font_14">License</li>
+                    </ul>
+                </div>
+                <div class="text-center">
+                    &copy; 2025 Kivzo. Designed by Nixar. Powered by Webflow.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- footer section end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
